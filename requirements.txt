@@ -5,7 +5,7 @@ loguru
 deepspeed
 torch==2.5.1
 transformers
-flash-attn
+flash-attn ; platform_system!="Darwin"
 PyWavelets
 matplotlib
 tqdm
