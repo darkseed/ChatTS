@@ -6,6 +6,7 @@ deepspeed
 torch==2.5.1
 transformers
 flash-attn ; platform_system!="Darwin"
+accelerate>=1.0.0 ; platform_system=="Darwin"
 PyWavelets
 matplotlib
 tqdm
